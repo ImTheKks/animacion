@@ -9,14 +9,17 @@ body{
   background-size: 100%;
 }
 div{
-  width: 100px;
-  height: 100px;
+  width: 200px;
+  height: 600px;
+  display: flex;
+  align-items: end;
   
   position: relative;
   animation: mymove 10s infinite;
 }
 @keyframes mymove {
   0%{top: 0px;}
-  50%{top: 250px;}
-  100%{ left: 250px; }
+  40%{top: 250px;}
+  50%{top: 250px; left: 0px;}
+  100%{top: 250px; left: 1500px;}
 }
